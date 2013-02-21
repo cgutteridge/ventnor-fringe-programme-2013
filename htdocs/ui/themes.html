@@ -1,0 +1,5 @@
+<ul>
+  <F3:repeat group="{{ @themes }}" value="{{ @theme }}">
+    <li><a href='{{ @theme }}'>{{ @theme->label() }}</a></li>
+  </F3:repeat>
+</ul>

@@ -1,0 +1,32 @@
+
+<h1>{{ @activity->label() }}</h1>
+
+<F3:check if="{{ @activity->has( 'event:time' ) }}">
+  <F3:check if="{{ @activity->get( 'event:time' )->has( 'tl:start' ) }}">
+     <p>Start: {{ @activity->get( 'event:time' )->get( 'tl:start' ) }}</p>
+  </F3:check>
+  <F3:check if="{{ @activity->get( 'event:time' )->has( 'tl:end' ) }}">
+     <p>End: {{ @activity->get( 'event:time' )->get( 'tl:end' ) }}</p>
+  </F3:check>
+</F3:check>
+
+<F3:repeat group="{{ @activity->all('prog:speaker' ) }}" value="{{ @agent }}">
+   <p>Speaker: {{ @agent->prettyLink() }}</p>
+</F3:repeat>
+
+<F3:check if="{{ @activity->has( 'event:place' ) }}">
+   <p>Place: {{ @activity->get( 'event:place' )->prettyLink() }}</p>
+</F3:check>
+
+<F3:check if="{{ @activity->has( 'dcterms:description' ) }}">
+  {{ @activity->get( 'dcterms:description' ) | raw }}
+</F3:check>
+
+<F3:repeat group="{{ @activity->all('-prog:realises' ) }}" value="{{ @event }}">
+   <p>event: {{ @event->prettyLink() }} - {{ @event->get( 'event:place' )->prettyLink() }} - {{ @event->get( 'event:time' )->get( 'tl:start' ) }}</p>
+</F3:repeat>
+
+<F3:repeat group="{{ @activity->all('dcterms:subject' ) }}" value="{{ @theme }}">
+   <p>Theme: {{ @theme->prettyLink() }}</p>
+</F3:repeat>
+

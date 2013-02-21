@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xtypes="http://purl.org/xtypes/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:event="http://purl.org/NET/c4dm/event.owl#" xmlns:prog="http://purl.org/prog/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:tl="http://purl.org/NET/c4dm/timeline.owl#" xmlns:spacerel="http://data.ordnancesurvey.co.uk/ontology/spatialrelations/" xmlns:rooms="http://vocab.deri.ie/rooms#" xmlns:progx="http://purl.org/prog/testing/" xmlns:g="http://purl.org/openorg/grinder/ns/" xmlns:places="http://purl.org/openorg/grinder/ns/places/" xmlns:subjects="http://purl.org/openorg/grinder/ns/subjects/">
+
+  <event:Event rdf:about="http://vfringe.totl.net/2013/event/VentnorFringe">
+    <event:place>
+      <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/Ventnor">
+        <rdfs:label>Ventnor</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Ventnor"/>
+      </geo:SpatialLocation>
+    </event:place>
+    <rdfs:label>Ventnor Fringe Festival, 2013</rdfs:label>
+    <foaf:homepage rdf:resource="http://www.vfringe.co.uk/"/>
+    <rdfs:label>Ventnor Fringe 2013</rdfs:label>
+    <event:time>
+      <tl:Interval>
+        <tl:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-08-14</tl:start>
+        <tl:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-08-17</tl:end>
+      </tl:Interval>
+    </event:time>
+  </event:Event>
+  <prog:Programme rdf:about="http://vfringe.totl.net/2013/event/VentnorFringe#programme">
+    <prog:describes rdf:resource="http://vfringe.totl.net/2013/event/VentnorFringe"/>
+    <prog:has_streamed_event>
+      <event:Event rdf:about="http://vfringe.totl.net/2013/event/ChezMourad-DizraeliAndTheSmallGods-2011-08-17-21:30">
+        <rdfs:label>Dizraeli and the Small Gods</rdfs:label>
+        <foaf:page rdf:resource="http://vfringe.totl.net/?activity=DizraeliAndTheSmallGods"/>
+        <progx:ticketsLink rdf:resource="http://ventnorfringe.tumblr.com/post/8947579586/ticektsclosed"/>
+        <event:time>
+          <tl:Interval>
+            <tl:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-17T21:30+0100</tl:start>
+            <tl:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-17T23:00+0100</tl:end>
+          </tl:Interval>
+        </event:time>
+        <prog:speaker>
+          <foaf:Agent rdf:about="http://vfringe.totl.net/2013/act/DizraeliAndTheSmallGods" rdfs:label="Dizraeli and the Small Gods">
+            <foaf:homepage rdf:resource="http://www.dizraeli.com/dizraeli-and-the-small-gods"/>
+            <progx:reviews>Far beyond a normal hiphop show something quite remarkable Venue Magazine.</progx:reviews>
+            <progx:reviews>the birth of a new style and type of music so fresh, it defies definition New Music Transmission</progx:reviews>
+            <progx:reviews>Glastonbury was one in a whirl of festivals- over the summer of 2010 the Small Gods played stages from Larmer Tree to Green Man to Bestival and every space between, and their sound and their following grew. In October they were invited to play at the Queen Elizabeth Hall with beatbox legend Shlomo as part of his 'Music Through Unconventional Means' series, and now they're working on a collaboration with folk legend Chris Wood, which will be performed at the Old Vic Tunnels in February 2011.</progx:reviews>
+          </foaf:Agent>
+        </prog:speaker>
+        <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">&lt;p&gt;We open the first night of the Fringe with very special guests Dizraeli and the Small Gods, drawing as much inspiration from sea shanties and folk ballads as from the grit of the city, Dizraeli recorded his debut solo album 'Engurland (City Shanties)' in autumn 2009, and assembled a supernaturally talented group of musicians to tour it. Waves were made, and before long they were booked to play the West Holts stage at Glastonbury 2010, a gig which won them thousands of surprised converts to their melodic, unashamedly heartfelt reinvention of hiphop.&lt;/p&gt;&lt;p&gt;It shouldn't work, but it does. Viola, turntables, flute, close harmony singing, beatbox and double bass (from World Female Beatbox Champion Bellatrix), steel-string guitars and Dizraeli's elastic rap vocals, bridging divides between folk traditions and hiphop invention, rural and urban, heart and Head.&lt;/p&gt;</dcterms:description>
+        <event:place>
+          <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/ChezMourad"/>
+        </event:place>
+        <dcterms:subject>
+          <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/music"/>
+        </dcterms:subject>
+        <dcterms:subject>
+          <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/no-children"/>
+        </dcterms:subject>
+        <prog:realises>
+          <prog:Activity rdf:about="http://vfringe.totl.net/2013/activity/DizraeliAndTheSmallGods">
+            <rdfs:label>Dizraeli and the Small Gods</rdfs:label>
+            <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">&lt;p&gt;We open the first night of the Fringe with very special guests Dizraeli and the Small Gods, drawing as much inspiration from sea shanties and folk ballads as from the grit of the city, Dizraeli recorded his debut solo album 'Engurland (City Shanties)' in autumn 2009, and assembled a supernaturally talented group of musicians to tour it. Waves were made, and before long they were booked to play the West Holts stage at Glastonbury 2010, a gig which won them thousands of surprised converts to their melodic, unashamedly heartfelt reinvention of hiphop.&lt;/p&gt;&lt;p&gt;It shouldn't work, but it does. Viola, turntables, flute, close harmony singing, beatbox and double bass (from World Female Beatbox Champion Bellatrix), steel-string guitars and Dizraeli's elastic rap vocals, bridging divides between folk traditions and hiphop invention, rural and urban, heart and Head.&lt;/p&gt;</dcterms:description>
+            <prog:speaker>
+              <foaf:Agent rdf:about="http://vfringe.totl.net/2013/act/DizraeliAndTheSmallGods" rdfs:label="Dizraeli and the Small Gods"/>
+            </prog:speaker>
+            <progx:price>10</progx:price>
+            <dcterms:subject>
+              <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/music"/>
+            </dcterms:subject>
+            <dcterms:subject>
+              <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/no-children"/>
+            </dcterms:subject>
+          </prog:Activity>
+        </prog:realises>
+      </event:Event>
+    </prog:has_streamed_event>
+    <prog:streamed_by_location rdf:resource="http://vfringe.totl.net/2013/place/ChezMourad"/>
+    <prog:has_streamed_event>
+      <event:Event rdf:about="http://vfringe.totl.net/2013/event/BonchurchOldChurch-EmilyScotcher-2011-08-18-20:00">
+        <rdfs:label>Emily Scotcher</rdfs:label>
+        <foaf:page rdf:resource="http://vfringe.totl.net/?activity=EmilyScotcher"/>
+        <progx:ticketsLink rdf:resource="http://ventnorfringe.tumblr.com/post/8947579586/ticektsclosed"/>
+        <event:time>
+          <tl:Interval>
+            <tl:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-18T20:00+0100</tl:start>
+            <tl:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-18T21:30+0100</tl:end>
+          </tl:Interval>
+        </event:time>
+        <prog:speaker>
+          <foaf:Agent rdf:about="http://vfringe.totl.net/2013/act/EmilyScotcher" rdfs:label="Emily Scotcher"/>
+        </prog:speaker>
+        <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">&lt;p&gt;Emily Scotcher is in her final year studying English at Exeter University, where she is heavily involved in all things music, primarily as a flautist, singer and conductor. Her interests in performance range from jazz and showtunes to classical and contemporary favourites. It is a flavour of this eclectic mix of tastes that she hopes to bring to the Fringe, and she will be enlisting the help of some young Island musicians to take the audience on a journey through many exciting genres of music in the way it was meant to be heard: live!&lt;/p&gt;</dcterms:description>
+        <event:place>
+          <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/BonchurchOldChurch"/>
+        </event:place>
+        <dcterms:subject>
+          <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/music"/>
+        </dcterms:subject>
+        <prog:realises>
+          <prog:Activity rdf:about="http://vfringe.totl.net/2013/activity/EmilyScotcher">
+            <rdfs:label>Emily Scotcher</rdfs:label>
+            <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">&lt;p&gt;Emily Scotcher is in her final year studying English at Exeter University, where she is heavily involved in all things music, primarily as a flautist, singer and conductor. Her interests in performance range from jazz and showtunes to classical and contemporary favourites. It is a flavour of this eclectic mix of tastes that she hopes to bring to the Fringe, and she will be enlisting the help of some young Island musicians to take the audience on a journey through many exciting genres of music in the way it was meant to be heard: live!&lt;/p&gt;</dcterms:description>
+            <prog:speaker>
+              <foaf:Agent rdf:about="http://vfringe.totl.net/2013/act/EmilyScotcher" rdfs:label="Emily Scotcher"/>
+            </prog:speaker>
+            <progx:price>6</progx:price>
+            <dcterms:subject>
+              <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/music"/>
+            </dcterms:subject>
+          </prog:Activity>
+        </prog:realises>
+      </event:Event>
+    </prog:has_streamed_event>
+    <prog:streamed_by_location rdf:resource="http://vfringe.totl.net/2013/place/BonchurchOldChurch"/>
+    <prog:has_streamed_event>
+      <event:Event rdf:about="http://vfringe.totl.net/2013/event/TrinityChurch-TheSpireSessions-2013-08-16-13:00">
+        <rdfs:label>The Spire Sessions</rdfs:label>
+        <foaf:page rdf:resource="http://vfringe.totl.net/?activity=TheSpireSessions"/>
+        <progx:ticketsLink rdf:resource="http://ventnorfringe.tumblr.com/post/8947579586/ticektsclosed"/>
+        <event:time>
+          <tl:Interval>
+            <tl:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-16T13:00+0100</tl:start>
+            <tl:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-16T23:00+0100</tl:end>
+          </tl:Interval>
+        </event:time>
+        <prog:speaker>
+          <foaf:Agent rdf:about="http://vfringe.totl.net/2013/act/TheSpireSessions" rdfs:label="The Spire Sessions">
+            <foaf:homepage rdf:resource="http://www.myspace.com/marquestoliver"/>
+          </foaf:Agent>
+        </prog:speaker>
+        <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">Weekend pass £35</dcterms:description>
+        <event:place>
+          <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/TrinityChurch"/>
+        </event:place>
+        <dcterms:subject>
+          <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/music"/>
+        </dcterms:subject>
+        <prog:realises>
+          <prog:Activity rdf:about="http://vfringe.totl.net/2013/activity/TheSpireSessions">
+            <rdfs:label>The Spire Sessions</rdfs:label>
+            <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">Weekend pass £35</dcterms:description>
+            <prog:speaker>
+              <foaf:Agent rdf:about="http://vfringe.totl.net/2013/act/TheSpireSessions" rdfs:label="The Spire Sessions"/>
+            </prog:speaker>
+            <progx:price>35</progx:price>
+            <dcterms:subject>
+              <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/music"/>
+            </dcterms:subject>
+          </prog:Activity>
+        </prog:realises>
+      </event:Event>
+    </prog:has_streamed_event>
+    <prog:streamed_by_location rdf:resource="http://vfringe.totl.net/2013/place/TrinityChurch"/>
+    <prog:has_streamed_event>
+      <event:Event rdf:about="http://vfringe.totl.net/2013/event/ChezMourad-LastNightOfTheFringeWithSpecialGuestJonKennedyDJSet-2011-08-20-19:30">
+        <rdfs:label>Last Night of the Fringe with special guest Jon Kennedy (DJ set)</rdfs:label>
+        <foaf:page rdf:resource="http://vfringe.totl.net/?activity=LastNightOfTheFringeWithSpecialGuestJonKennedyDJSet"/>
+        <progx:ticketsLink rdf:resource="http://ventnorfringe.tumblr.com/post/8947579586/ticektsclosed"/>
+        <event:time>
+          <tl:Interval>
+            <tl:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-20T19:30+0100</tl:start>
+            <tl:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-20T21:00+0100</tl:end>
+          </tl:Interval>
+        </event:time>
+        <prog:speaker>
+          <foaf:Agent rdf:about="http://vfringe.totl.net/2013/act/LastNightOfTheFringeWithSpecialGuestJonKennedyDJSet" rdfs:label="Last Night of the Fringe with special guest Jon Kennedy (DJ set)"/>
+        </prog:speaker>
+        <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">&lt;p&gt;Stockport bred drummer, producer and DJ Extraordinare JON KENNEDY will be our special gust on the Saturday, night binging the Fringe to a spectacular close. Signed firstly to Tru Thoughts Recordings and then legendary UK street soul label Grand Central Records and comes strong with huge funk beats, soulful musical constructions and the best bits of hip hop's golden era translated through his own brain into your ears....&lt;/p&gt;</dcterms:description>
+        <event:place>
+          <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/ChezMourad"/>
+        </event:place>
+        <dcterms:subject>
+          <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/music"/>
+        </dcterms:subject>
+        <prog:realises>
+          <prog:Activity rdf:about="http://vfringe.totl.net/2013/activity/LastNightOfTheFringeWithSpecialGuestJonKennedyDJSet">
+            <rdfs:label>Last Night of the Fringe with special guest Jon Kennedy (DJ set)</rdfs:label>
+            <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">&lt;p&gt;Stockport bred drummer, producer and DJ Extraordinare JON KENNEDY will be our special gust on the Saturday, night binging the Fringe to a spectacular close. Signed firstly to Tru Thoughts Recordings and then legendary UK street soul label Grand Central Records and comes strong with huge funk beats, soulful musical constructions and the best bits of hip hop's golden era translated through his own brain into your ears....&lt;/p&gt;</dcterms:description>
+            <prog:speaker>
+              <foaf:Agent rdf:about="http://vfringe.totl.net/2013/act/LastNightOfTheFringeWithSpecialGuestJonKennedyDJSet" rdfs:label="Last Night of the Fringe with special guest Jon Kennedy (DJ set)"/>
+            </prog:speaker>
+            <progx:price>6</progx:price>
+            <dcterms:subject>
+              <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/music"/>
+            </dcterms:subject>
+          </prog:Activity>
+        </prog:realises>
+      </event:Event>
+    </prog:has_streamed_event>
+    <prog:streamed_by_location rdf:resource="http://vfringe.totl.net/2013/place/ChezMourad"/>
+    <prog:has_streamed_event>
+      <event:Event rdf:about="http://vfringe.totl.net/2013/event/-DigitalTheatreScreenings-CANCELLEDSorry--">
+        <rdfs:label>Digital Theatre Screenings - CANCELLED (sorry)</rdfs:label>
+        <foaf:page rdf:resource="http://vfringe.totl.net/?activity=DigitalTheatreScreenings-CANCELLEDSorry"/>
+        <prog:speaker>
+          <foaf:Agent rdf:about="http://vfringe.totl.net/2013/act/DigitalTheatreScreenings-CANCELLEDSorry" rdfs:label="Digital Theatre Screenings - CANCELLED (sorry)"/>
+        </prog:speaker>
+        <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML"></dcterms:description>
+        <prog:realises>
+          <prog:Activity rdf:about="http://vfringe.totl.net/2013/activity/DigitalTheatreScreenings-CANCELLEDSorry">
+            <rdfs:label>Digital Theatre Screenings - CANCELLED (sorry)</rdfs:label>
+            <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML"></dcterms:description>
+            <prog:speaker>
+              <foaf:Agent rdf:about="http://vfringe.totl.net/2013/act/DigitalTheatreScreenings-CANCELLEDSorry" rdfs:label="Digital Theatre Screenings - CANCELLED (sorry)"/>
+            </prog:speaker>
+          </prog:Activity>
+        </prog:realises>
+      </event:Event>
+    </prog:has_streamed_event>
+    <prog:streamed_by_location rdf:resource="http://vfringe.totl.net/2013/place/"/>
+    <prog:has_streamed_event>
+      <event:Event rdf:about="http://vfringe.totl.net/2013/event/Ventnor-GrandCarnivalParade-2011-08-17-19:00">
+        <rdfs:label>Grand Carnival Parade</rdfs:label>
+        <foaf:page rdf:resource="http://vfringe.totl.net/?activity=GrandCarnivalParade"/>
+        <event:time>
+          <tl:Interval>
+            <tl:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-17T19:00+0100</tl:start>
+            <tl:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-17T21:00+0100</tl:end>
+          </tl:Interval>
+        </event:time>
+        <prog:speaker>
+          <foaf:Agent rdf:about="http://vfringe.totl.net/2013/act/GrandCarnivalParade" rdfs:label="Grand Carnival Parade">
+            <foaf:homepage rdf:resource="http://www.ventnorcarnival.org.uk/"/>
+          </foaf:Agent>
+        </prog:speaker>
+        <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML"></dcterms:description>
+        <event:place>
+          <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/Ventnor"/>
+        </event:place>
+        <dcterms:subject>
+          <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/parade"/>
+        </dcterms:subject>
+        <prog:realises>
+          <prog:Activity rdf:about="http://vfringe.totl.net/2013/activity/GrandCarnivalParade">
+            <rdfs:label>Grand Carnival Parade</rdfs:label>
+            <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML"></dcterms:description>
+            <prog:speaker>
+              <foaf:Agent rdf:about="http://vfringe.totl.net/2013/act/GrandCarnivalParade" rdfs:label="Grand Carnival Parade"/>
+            </prog:speaker>
+            <progx:price>0</progx:price>
+            <dcterms:subject>
+              <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/parade"/>
+            </dcterms:subject>
+          </prog:Activity>
+        </prog:realises>
+      </event:Event>
+    </prog:has_streamed_event>
+    <prog:streamed_by_location rdf:resource="http://vfringe.totl.net/2013/place/Ventnor"/>
+  </prog:Programme>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/Ventnor">
+    <rdfs:label>Ventnor</rdfs:label>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/Ventnor"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.595486</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.20384</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/TheObservatoryBar">
+    <rdfs:label>The Observatory Bar</rdfs:label>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/The Observatory Bar"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.593899</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.203298</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/TheSacredCinema">
+    <rdfs:label>The Sacred Cinema</rdfs:label>
+    <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">&lt;p&gt;(Ventnor Youth Club)&lt;/p&gt;</dcterms:description>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/The Sacred Cinema"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.595287</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.202008</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/BonchurchOldChurch">
+    <rdfs:label>Bonchurch Old Church</rdfs:label>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/Bonchurch Old Church"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.599079</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.184887</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/VentnorArtsClub">
+    <rdfs:label>Ventnor Arts Club</rdfs:label>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/Ventnor Arts Club"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.595388</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.205342</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/StCatherinesChurch">
+    <rdfs:label>St Catherines Church</rdfs:label>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/St Catherines Church"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.594666</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.206801</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/BonchurchParishChurch">
+    <rdfs:label>Bonchurch Parish Church</rdfs:label>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/Bonchurch Parish Church"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.6</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.186944</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/VentnorPark">
+    <rdfs:label>Ventnor Park</rdfs:label>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/Ventnor Park"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.592335</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.216285</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/StCatherineSSchoolHall">
+    <rdfs:label>St Catherine's School Hall</rdfs:label>
+    <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">&lt;p&gt;(Access from Belgrave Road)&lt;/p&gt;</dcterms:description>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/St Catherine's School Hall"/>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/StAndrewsHotel">
+    <rdfs:label>St Andrews Hotel</rdfs:label>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/St Andrews Hotel"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.593948</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.210132</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/SeacliffStudios">
+    <rdfs:label>Seacliff Studios</rdfs:label>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/Seacliff Studios"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.594326</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.207804</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/TheCrabAndLobsterTap">
+    <rdfs:label>The Crab and Lobster Tap</rdfs:label>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/The Crab and Lobster Tap"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.596062</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.204956</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/VentnorSeafront">
+    <rdfs:label>Ventnor Seafront</rdfs:label>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/Ventnor Seafront"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.59301</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.205868</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/Routemaster">
+    <rdfs:label>Routemaster</rdfs:label>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/Routemaster"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.593887</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.203604</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/LaFalaise">
+    <rdfs:label>La Falaise</rdfs:label>
+    <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">&lt;p&gt;To conincide with the Ventnor Fringe, the new 'La Falaise' open&lt;/p&gt;</dcterms:description>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/La Falaise"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.591915</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.214445</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/TrinityChurch">
+    <rdfs:label>Trinity Church</rdfs:label>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/Trinity Church"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.598153</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.19427</geo:long>
+  </geo:SpatialLocation>
+  <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/TheCourtyard">
+    <rdfs:label>The Courtyard</rdfs:label>
+    <foaf:page rdf:resource="http://vfringe.totl.net/location/The Courtyard"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.594677</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.205873</geo:long>
+  </geo:SpatialLocation>
+  <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/art">
+    <rdfs:label>Visual Arts</rdfs:label>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/bar">
+    <rdfs:label>Bar</rdfs:label>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/box-office">
+    <rdfs:label>Box Office</rdfs:label>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/children">
+    <rdfs:label>For children</rdfs:label>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/dance">
+    <rdfs:label>Dance</rdfs:label>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/film">
+    <rdfs:label>Film</rdfs:label>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/comedy">
+    <rdfs:label>Comedy</rdfs:label>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/music">
+    <rdfs:label>Music</rdfs:label>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/no-children">
+    <rdfs:label>16+ Only</rdfs:label>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/adult">
+    <rdfs:label>18+ Only</rdfs:label>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/carnival">
+    <rdfs:label>Carnival</rdfs:label>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/spoken-word">
+    <rdfs:label>Spoken Word/Lit</rdfs:label>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/theatre">
+    <rdfs:label>Theatre</rdfs:label>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://vfringe.totl.net/2013/theme/workshop">
+    <rdfs:label>Workshop/Talk</rdfs:label>
+  </skos:Concept>
+</rdf:RDF>

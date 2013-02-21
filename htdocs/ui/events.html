@@ -1,0 +1,5 @@
+<ul>
+  <F3:repeat group="{{ @events }}" value="{{ @event }}">
+    <li><a href='{{ @event }}'>{{ @event->label() }}</a></li>
+  </F3:repeat>
+</ul>

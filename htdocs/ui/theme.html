@@ -1,0 +1,18 @@
+
+<h1>{{ @theme->label() }}</h1>
+
+<!-- 
+  loops over events AND activities 
+  skips events if they realise an activity.
+-->
+<ul>
+  <F3:repeat group="{{ @theme->all('-dcterms:subject' )->sort('rdfs:label') }}" value="{{ @thing }}">
+    <F3:check if="{{ @thing->isType('event:Event') && ! @thing->get('prog:realises') }}">
+      <li><a href='{{ @thing }}'>{{ @thing->label() }}</a> (event)</li>
+    </F3:check>
+    <F3:check if="{{ @thing->isType('prog:Activity') }}">
+      <li><a href='{{ @thing }}'>{{ @thing->label() }}</a> (activity)</li>
+    </F3:check>
+  </F3:repeat>
+</ul>
+
