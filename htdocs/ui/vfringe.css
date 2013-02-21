@@ -1,3 +1,16 @@
 ul.menu li { display: inline-block; }
 
 h1 { font-size: 300% }
+
+body { 
+   background-image: url('http://2013.vfringe.co.uk/ip_themes/vfringe_2013/img/bg/bg2.jpg'); 
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #333333;
+   font-family: 'Montserrat',sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   text-align: left;
+}
+

@@ -6,16 +6,6 @@ class Prog {
 	protected $framework;
 	protected $programme;
 
-
-#GET /acts=Prog->page_acts
-#GET /act/@id=Prog->page_activity
-#
-#GET /activities=Prog->page_activies
-#GET /activity/@id=Prog->page_activity
-#
-#GET /event/@id=Prog->page_event
-#GET /events=Prog->page_events_and_activities
-
 	############################################################
 	# custom content for Ventnor
 	############################################################
@@ -42,6 +32,10 @@ class Prog {
 		$f3->set('content','about.html');
 		$f3->set('html_title','About' );
 		print Template::instance()->render( "page.html" );
+	}
+
+	function speaker( $id ) {
+		return $this->graph()->resource( "http://$_SERVER[HTTP_HOST]/2013/act/".$id );
 	}
 
 	function place( $id ) {
@@ -109,7 +103,15 @@ class Prog {
 	}
 
 	function places() {
-		return $this->events()->all( "http://purl.org/NET/c4dm/event.owl#place" );
+		return $this->events()->all( "event:place" );
+	}
+
+	function activities() {
+		return $this->events()->all( "prog:realises" );
+	}
+
+	function speakers() {
+		return $this->events()->all( "prog:speaker" );
 	}
 
 	############################################################
@@ -172,6 +174,35 @@ class Prog {
 		print Template::instance()->render( "page.html" );
 	}
 
+	function page_events_and_activities() {
+                $f3=$this->framework;
+		$f3->set('content','events_and_activities.html');
+		$f3->set('html_title','Events & Activities - '.$this->site_title() );
+		$events = $this->events();
+		$activities = $this->activities();
+		$f3->set('e_and_a', $events->union( $activities ));
+		print Template::instance()->render( "page.html" );
+	}
+
+	# ACTIVITIES
+
+	function page_activity() {
+                $f3=$this->framework;
+		$activity = $this->activity( $f3->get( "PARAMS.id") );
+		$f3->set('activity', $activity );
+		$f3->set('content','activity.html');
+		$f3->set('html_title', $activity->label()." - Activity - ".$this->site_title() );
+		print Template::instance()->render( "page.html" );
+	}
+
+	function page_activities() {
+                $f3=$this->framework;
+		$f3->set('content','activities.html');
+		$f3->set('html_title','Events - '.$this->site_title() );
+		$f3->set('activities', $this->activities() );
+		print Template::instance()->render( "page.html" );
+	}
+
 	# LOCATIONS
 
 	function page_places() {
@@ -193,6 +224,27 @@ class Prog {
 		print Template::instance()->render( "page.html" );
 	}
 
+	# SPEAKERS
+	# (includes acts, performers etc)
+
+	function page_speakers() {
+                $f3=$this->framework;
+		$f3->set('speakers', $this->speakers() );
+		$f3->set('content','speakers.html');
+		$f3->set('html_title','Performers - '.$this->site_title() );
+		print Template::instance()->render( "page.html" );
+	}
+
+	function page_speaker() {
+                $f3=$this->framework;
+		$speaker = $this->speaker( $f3->get( "PARAMS.id" ) );
+		$f3->set('speaker', $speaker );
+		$f3->set('content','speaker.html');
+		$f3->set('html_title', $speaker->label()." - Performer - ".$this->site_title() );
+		print Template::instance()->render( "page.html" );
+	}
+
+	# OTHER PAGE TYPES
 	# THEMES
 
 	function page_themes() {

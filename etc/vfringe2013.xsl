@@ -70,7 +70,7 @@
     <prog:has_streamed_event>
       <event:Event rdf:about="{$base-event-uri}{g:venue/@tag}-{g:name/@tag}-{g:date}-{g:start}">
         <rdfs:label><xsl:value-of select="g:name" /></rdfs:label>
-        <foaf:page rdf:resource="http://vfringe.totl.net/?activity={g:name/@tag}" />
+        <foaf:page rdf:resource="http://vfringe.totl.net/activity/{g:name/@tag}" />
         <xsl:if test="g:tickets-url/text()">
            <progx:ticketsLink rdf:resource="{g:tickets-url}" />
         </xsl:if>
@@ -186,7 +186,7 @@
       <xsl:if test="places:html-description/text()">
         <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">&lt;p&gt;<xsl:value-of select="places:html-description" />&lt;/p&gt;</dcterms:description>
       </xsl:if>
-      <foaf:page rdf:resource="http://vfringe.totl.net/location/{places:name}" />
+      <foaf:page rdf:resource="http://vfringe.totl.net/place/{places:name}" />
       <xsl:if test="places:latitude/text() and places:longitude/text()">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"><xsl:value-of select="places:latitude" /></geo:lat>
         <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"><xsl:value-of select="places:longitude" /></geo:long>

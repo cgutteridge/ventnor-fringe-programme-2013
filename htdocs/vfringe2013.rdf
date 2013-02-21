@@ -23,7 +23,7 @@
     <prog:has_streamed_event>
       <event:Event rdf:about="http://vfringe.totl.net/2013/event/ChezMourad-DizraeliAndTheSmallGods-2011-08-17-21:30">
         <rdfs:label>Dizraeli and the Small Gods</rdfs:label>
-        <foaf:page rdf:resource="http://vfringe.totl.net/?activity=DizraeliAndTheSmallGods"/>
+        <foaf:page rdf:resource="http://vfringe.totl.net/activity/DizraeliAndTheSmallGods"/>
         <progx:ticketsLink rdf:resource="http://ventnorfringe.tumblr.com/post/8947579586/ticektsclosed"/>
         <event:time>
           <tl:Interval>
@@ -71,7 +71,7 @@
     <prog:has_streamed_event>
       <event:Event rdf:about="http://vfringe.totl.net/2013/event/BonchurchOldChurch-EmilyScotcher-2011-08-18-20:00">
         <rdfs:label>Emily Scotcher</rdfs:label>
-        <foaf:page rdf:resource="http://vfringe.totl.net/?activity=EmilyScotcher"/>
+        <foaf:page rdf:resource="http://vfringe.totl.net/activity/EmilyScotcher"/>
         <progx:ticketsLink rdf:resource="http://ventnorfringe.tumblr.com/post/8947579586/ticektsclosed"/>
         <event:time>
           <tl:Interval>
@@ -108,7 +108,7 @@
     <prog:has_streamed_event>
       <event:Event rdf:about="http://vfringe.totl.net/2013/event/TrinityChurch-TheSpireSessions-2013-08-16-13:00">
         <rdfs:label>The Spire Sessions</rdfs:label>
-        <foaf:page rdf:resource="http://vfringe.totl.net/?activity=TheSpireSessions"/>
+        <foaf:page rdf:resource="http://vfringe.totl.net/activity/TheSpireSessions"/>
         <progx:ticketsLink rdf:resource="http://ventnorfringe.tumblr.com/post/8947579586/ticektsclosed"/>
         <event:time>
           <tl:Interval>
@@ -147,7 +147,7 @@
     <prog:has_streamed_event>
       <event:Event rdf:about="http://vfringe.totl.net/2013/event/ChezMourad-LastNightOfTheFringeWithSpecialGuestJonKennedyDJSet-2011-08-20-19:30">
         <rdfs:label>Last Night of the Fringe with special guest Jon Kennedy (DJ set)</rdfs:label>
-        <foaf:page rdf:resource="http://vfringe.totl.net/?activity=LastNightOfTheFringeWithSpecialGuestJonKennedyDJSet"/>
+        <foaf:page rdf:resource="http://vfringe.totl.net/activity/LastNightOfTheFringeWithSpecialGuestJonKennedyDJSet"/>
         <progx:ticketsLink rdf:resource="http://ventnorfringe.tumblr.com/post/8947579586/ticektsclosed"/>
         <event:time>
           <tl:Interval>
@@ -184,7 +184,7 @@
     <prog:has_streamed_event>
       <event:Event rdf:about="http://vfringe.totl.net/2013/event/-DigitalTheatreScreenings-CANCELLEDSorry--">
         <rdfs:label>Digital Theatre Screenings - CANCELLED (sorry)</rdfs:label>
-        <foaf:page rdf:resource="http://vfringe.totl.net/?activity=DigitalTheatreScreenings-CANCELLEDSorry"/>
+        <foaf:page rdf:resource="http://vfringe.totl.net/activity/DigitalTheatreScreenings-CANCELLEDSorry"/>
         <prog:speaker>
           <foaf:Agent rdf:about="http://vfringe.totl.net/2013/act/DigitalTheatreScreenings-CANCELLEDSorry" rdfs:label="Digital Theatre Screenings - CANCELLED (sorry)"/>
         </prog:speaker>
@@ -204,7 +204,7 @@
     <prog:has_streamed_event>
       <event:Event rdf:about="http://vfringe.totl.net/2013/event/Ventnor-GrandCarnivalParade-2011-08-17-19:00">
         <rdfs:label>Grand Carnival Parade</rdfs:label>
-        <foaf:page rdf:resource="http://vfringe.totl.net/?activity=GrandCarnivalParade"/>
+        <foaf:page rdf:resource="http://vfringe.totl.net/activity/GrandCarnivalParade"/>
         <event:time>
           <tl:Interval>
             <tl:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-17T19:00+0100</tl:start>
@@ -242,104 +242,104 @@
   </prog:Programme>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/Ventnor">
     <rdfs:label>Ventnor</rdfs:label>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/Ventnor"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/Ventnor"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.595486</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.20384</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/TheObservatoryBar">
     <rdfs:label>The Observatory Bar</rdfs:label>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/The Observatory Bar"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/The Observatory Bar"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.593899</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.203298</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/TheSacredCinema">
     <rdfs:label>The Sacred Cinema</rdfs:label>
     <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">&lt;p&gt;(Ventnor Youth Club)&lt;/p&gt;</dcterms:description>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/The Sacred Cinema"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/The Sacred Cinema"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.595287</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.202008</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/BonchurchOldChurch">
     <rdfs:label>Bonchurch Old Church</rdfs:label>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/Bonchurch Old Church"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/Bonchurch Old Church"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.599079</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.184887</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/VentnorArtsClub">
     <rdfs:label>Ventnor Arts Club</rdfs:label>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/Ventnor Arts Club"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/Ventnor Arts Club"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.595388</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.205342</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/StCatherinesChurch">
     <rdfs:label>St Catherines Church</rdfs:label>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/St Catherines Church"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/St Catherines Church"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.594666</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.206801</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/BonchurchParishChurch">
     <rdfs:label>Bonchurch Parish Church</rdfs:label>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/Bonchurch Parish Church"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/Bonchurch Parish Church"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.6</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.186944</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/VentnorPark">
     <rdfs:label>Ventnor Park</rdfs:label>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/Ventnor Park"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/Ventnor Park"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.592335</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.216285</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/StCatherineSSchoolHall">
     <rdfs:label>St Catherine's School Hall</rdfs:label>
     <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">&lt;p&gt;(Access from Belgrave Road)&lt;/p&gt;</dcterms:description>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/St Catherine's School Hall"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/St Catherine's School Hall"/>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/StAndrewsHotel">
     <rdfs:label>St Andrews Hotel</rdfs:label>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/St Andrews Hotel"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/St Andrews Hotel"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.593948</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.210132</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/SeacliffStudios">
     <rdfs:label>Seacliff Studios</rdfs:label>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/Seacliff Studios"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/Seacliff Studios"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.594326</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.207804</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/TheCrabAndLobsterTap">
     <rdfs:label>The Crab and Lobster Tap</rdfs:label>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/The Crab and Lobster Tap"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/The Crab and Lobster Tap"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.596062</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.204956</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/VentnorSeafront">
     <rdfs:label>Ventnor Seafront</rdfs:label>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/Ventnor Seafront"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/Ventnor Seafront"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.59301</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.205868</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/Routemaster">
     <rdfs:label>Routemaster</rdfs:label>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/Routemaster"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/Routemaster"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.593887</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.203604</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/LaFalaise">
     <rdfs:label>La Falaise</rdfs:label>
     <dcterms:description rdf:datatype="http://purl.org/xtypes/Fragment-HTML">&lt;p&gt;To conincide with the Ventnor Fringe, the new 'La Falaise' open&lt;/p&gt;</dcterms:description>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/La Falaise"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/La Falaise"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.591915</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.214445</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/TrinityChurch">
     <rdfs:label>Trinity Church</rdfs:label>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/Trinity Church"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/Trinity Church"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.598153</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.19427</geo:long>
   </geo:SpatialLocation>
   <geo:SpatialLocation rdf:about="http://vfringe.totl.net/2013/place/TheCourtyard">
     <rdfs:label>The Courtyard</rdfs:label>
-    <foaf:page rdf:resource="http://vfringe.totl.net/location/The Courtyard"/>
+    <foaf:page rdf:resource="http://vfringe.totl.net/place/The Courtyard"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.594677</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.205873</geo:long>
   </geo:SpatialLocation>
