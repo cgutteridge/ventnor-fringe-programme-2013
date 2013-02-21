@@ -1,0 +1,6 @@
+<h1>Activities</h1>
+<ul>
+  <F3:repeat group="{{ @activities }}" value="{{ @activity }}">
+    <li><a href='{{ @activity }}'>{{ @activity->label() }}</a></li>
+  </F3:repeat>
+</ul>

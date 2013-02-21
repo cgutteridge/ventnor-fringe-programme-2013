@@ -1,0 +1,6 @@
+<h1>Performers</h1>
+<ul>
+  <F3:repeat group="{{ @speakers }}" value="{{ @speaker }}">
+    <li>{{ @speaker->prettyLink() }}</li>
+  </F3:repeat>
+</ul>
